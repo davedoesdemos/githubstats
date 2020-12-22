@@ -6,7 +6,7 @@
 
 This is a demo showing you how to use an Azure Logic App to export Github traffic statistics using the API detailed at [https://developer.github.com/v3/repos/traffic/#get-page-views](https://developer.github.com/v3/repos/traffic/#get-page-views). We'll then write the most recent statistics into a database instance, in this case SQL Server but any database supported by Logic Apps would work the same way. The reason for this is that Github only stores 14 days of visitor traffic in the traffic insights section for standard repositories. Using this technique we'll export all of the statistics and keep them longer term to see how much traffic there is over time on the repository. I have then connected Power BI to the database to create a report showing visitor numbers.
 
-There is a [video of this demo not ready yet](https://youtube.com/davedoesdemos)
+There is a [video of this demo](https://youtu.be/S5kxhPDQaxs)
 
 ## Github
 
